@@ -27,7 +27,6 @@ list2=table$label
 
 circle.data=data.frame(x=numeric(),y=numeric(),r=numeric(),label=character())
 pass=0
-#pass2=1
 
 circle.number=0
 progress=0
@@ -79,7 +78,7 @@ repeat{
 	pass2=1
 	counter=counter+1
 	
-		x=runif(1,x2-.003,x2+.005)
+		x=runif(1,x2-.005,x2+.005)
 		y=runif(1,y2-.005,y2+.005)
 
 	for (p in 1:nrow(circle.data)){
