@@ -152,7 +152,3 @@ if (decision==1 | decision=="Yes" | decision=="y"){
 		    }
 
 }
-
-
-
-
