@@ -1,6 +1,5 @@
 rno.circle=function(data=1:10,labels=data,sep=1){
 
-
 if (length(data) != length(labels))
 {stop("Data and label vectors must be of the same length")}
 
