@@ -30,7 +30,7 @@ counter=1
 n=7
 Y=1
 T=0
-color=1
+color=1 
 
 C=textGrob(T,name="C",gp=gpar(col=color),just="right")
 pushViewport(viewport(x=1,y=0,height=.05,width=.05,just=c("right","bottom")))
