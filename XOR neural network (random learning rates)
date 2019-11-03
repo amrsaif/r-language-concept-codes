@@ -241,5 +241,5 @@ grid.text(label="0",.9,.4,gp=gpar(col="gray",cex=1))
 upViewport()
 					}
 				}
-
+ 
 cat("Number of restarts= ",cc,"\n")
