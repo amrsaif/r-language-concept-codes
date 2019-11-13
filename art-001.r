@@ -26,4 +26,4 @@ if (pass==nrow(circle.data) &  sqrt( (.5-x)^2 + (.5-y)^2 ) < 0.5-r){
 	grid.circle(x,y,r,gp=gpar(col=NA,fill=rainbow(20)[runif(1,1,20)],alpha=0.5))
 	circle.data[nrow(circle.data)+1,]=c(x,y,r)
 										       }			
-	}
+	} 
